@@ -7,51 +7,19 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #697e8d;
+    color: #e9e6c2;
     text-align: center;
-    padding: 16px 0;
+    padding: 1rem 0;
 }
 
 header h1 {
     margin: 0;
 }
 
-main {
-    padding: 32px;
-}
-
-section {
-    margin-bottom: 32px;
-}
-
-section h2 {
-    color: #444;
-    font-size: 24px;
-    margin-bottom: 8px;
-}
-
-section p {
-    font-size: 16px;
-    margin-bottom: 16px;
-}
-
-.btn {
-    display: inline-block;
-    background-color: #333;
-    color: #fff; 
-    padding: 8px 16px; 
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-.btn:hover {
-    background-color: #555;
-}
 
 nav {
-    margin: 32px 0;
+    margin: 2rem 0;
     text-align: center;
 }
 
@@ -78,8 +46,8 @@ nav ul li a:hover {
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #697e8d;
+    color: #e9e6c2;
     text-align: center;
     padding: 1rem 0;
     position: fixed;
