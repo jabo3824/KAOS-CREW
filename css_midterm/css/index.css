@@ -92,3 +92,26 @@ footer {
     height: 60px;
     background: linear-gradient(to top, #697e8d, rgba(105, 126, 141, 0));
 }
+.navbar {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    background-color: #697e8d;
+    height: 50px;  
+    font-size: 20px;         
+}
+
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
