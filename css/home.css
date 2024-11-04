@@ -23,6 +23,11 @@ header {
 
 header h1 {
     margin: 0;
+    font-size: 5vw; /* Text size will scale with the viewport width */
+     
+}
+p {
+    font-size: 3vw;
 }
 
 main {
@@ -121,6 +126,18 @@ footer {
     color: black;
 }
 
-.img{
-    flex-direction: center;
+.imageBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+}
+
+.imageBar img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
 }
