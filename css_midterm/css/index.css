@@ -4,7 +4,11 @@ body {
     padding: 0;
     background-color: #e9e6c2;
     color: #333;
+    padding-bottom: 100px;
     
+}
+body.reached-bottom footer{
+    transform: translateY(0);
 }
 
 header {
@@ -87,9 +91,10 @@ footer {
     text-align: center;
     padding: 1rem 0;
     position: fixed;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
     width: 100%;
     bottom: 0;
-    height: 60px;
     background: linear-gradient(to top, #697e8d, rgba(105, 126, 141, 0));
 }
 .navbar {
