@@ -99,8 +99,8 @@ a:hover {
 }
 
 .section {
-    margin-bottom: 30px;
     padding: 20px;
     background-color: #ffffff;
+    border-radius: 12px;
 }
 
