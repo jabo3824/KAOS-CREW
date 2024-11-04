@@ -101,6 +101,7 @@ footer {
     margin: 0 auto;
     background: #fff;
     padding: 20px;
+    border-radius: 10px;
 }
 
 .imageBar img {
