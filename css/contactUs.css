@@ -100,12 +100,12 @@ footer {
     max-width: 100%;
     margin: 0 auto;
     background: #fff;
-    padding: 20px;
-    border-radius: 24px;
 }
 
 .imageBar img {
     width: 100%;
     height: auto;
     max-width: 100%;
+    border-radius: 10px;
+    padding: 5px;
 }
