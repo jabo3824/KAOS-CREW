@@ -8,7 +8,7 @@ body {
 
 .container {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 20px auto; /* Center and add margin around the box */
     background: #fff;
     padding: 20px;
     border-radius: 8px;
