@@ -23,7 +23,7 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: 5vw; /* Text size will scale with the viewport width */
+    font-size: clamp(14px, 2vw, 24px)
      
 }
 p {
@@ -108,7 +108,8 @@ footer {
     align-items: center;    
     background-color: #697e8d;
     height: 50px;  
-    font-size: 20px;         
+    font-size: 20px;
+         
 }
 
 
