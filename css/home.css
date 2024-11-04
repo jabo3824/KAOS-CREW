@@ -22,12 +22,7 @@ header {
 }
 
 header h1 {
-    margin: 0;
-    font-size: clamp(14px, 2vw, 24px)
-     
-}
-p {
-    font-size: 3vw;
+    margin: 0;     
 }
 
 main {
