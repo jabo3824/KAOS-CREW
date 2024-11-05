@@ -23,6 +23,7 @@ header {
 
 header h1 {
     margin: 0;
+    font-size: 3vw;     
 }
 
 main {
@@ -103,7 +104,8 @@ footer {
     align-items: center;    
     background-color: #697e8d;
     height: 50px;  
-    font-size: 20px;         
+    font-size: 20px;
+         
 }
 
 
@@ -119,4 +121,21 @@ footer {
 .navbar a:hover {
     background-color: #ddd;
     color: black;
+}
+
+.imageBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    background: #fff;
+
+}
+
+.imageBar img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+
 }

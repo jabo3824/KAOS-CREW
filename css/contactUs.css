@@ -92,3 +92,22 @@ footer {
     background-color: #ddd;
     color: black;
 }
+
+
+.imageBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 24px;
+}
+
+.imageBar img {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    border-radius: 24px;
+}
