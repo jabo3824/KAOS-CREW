@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 20px; /* Adds padding around the entire body */
+    padding: 20px;
     background-color: #e9e6c2;
     color: #333;
 }
@@ -64,10 +64,10 @@ h2 {
 }
 
 .event h3 {
-    color: #000; /* Change to black */
+    color: #000;
     font-size: 20px;
     margin: 8px 0;
-    font-weight: bold; /* Make it bold */
+    font-weight: bold;
 }
 
 .event p {
@@ -76,9 +76,9 @@ h2 {
 }
 
 time {
-    display: block; /* Each date/time on a new line */
+    display: block;
     font-size: 16px;
-    color: #555; /* A lighter color for the date/time */
+    color: #555;
 }
 
 footer {
@@ -96,6 +96,17 @@ footer {
     height: 50px;  
     font-size: 20px;         
 }
+
+@media (max-width: 400px) {
+    .navbar {
+            flex-direction: column;
+            height: auto;
+        }
+    .navbar a {
+            padding: 10px 0;
+            font-size: 18px;
+        }
+    }
 
 
 .navbar a {

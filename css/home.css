@@ -108,16 +108,14 @@ footer {
          
 }
 
-
-        /* Mobile Styles */
-        @media (max-width: 400px) {
-            .navbar {
-                flex-direction: column; /* Stack links vertically */
-                height: auto; /* Adjust height for vertical layout */
+@media (max-width: 400px) {
+        .navbar {
+                flex-direction: column;
+                height: auto;
             }
-            .navbar a {
-                padding: 10px 0; /* Adjust padding for smaller links */
-                font-size: 18px; /* Adjust font size for readability on mobile */
+        .navbar a {
+                padding: 10px 0;
+                font-size: 18px;
             }
         }
 
