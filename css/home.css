@@ -18,13 +18,14 @@ header {
     padding: 1rem 0;
     height: 40px;
     background: linear-gradient(to bottom, #697e8d, rgba(105, 126, 141, 0));
+    padding-bottom: 5px;
 
 }
 
 header h1 {
     margin: 0;
     font-size: 3vw;
-    padding-bottom: 200px;     
+    
 }
 
 main {
