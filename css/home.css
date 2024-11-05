@@ -110,7 +110,7 @@ footer {
 
 
         /* Mobile Styles */
-        @media (max-width: 600px) {
+        @media (max-width: 400px) {
             .navbar {
                 flex-direction: column; /* Stack links vertically */
                 height: auto; /* Adjust height for vertical layout */
