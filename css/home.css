@@ -23,7 +23,8 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: 2vw;     
+    font-size: 2vw;
+    padding-bottom: 5px;     
 }
 
 main {
